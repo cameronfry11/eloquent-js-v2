@@ -10,7 +10,7 @@
     Rewrite countB's to make use of this new function
  */
 
-function countBs(text, letter) {
+function countChar(text, letter) {
     var count = 0;
     for (i=0; i < text.length; i++) {
         if (text.charAt(i) === letter) {
@@ -20,4 +20,4 @@ function countBs(text, letter) {
     return count;
 }
 
-console.log(countBs("BBalskfdfja;sdkfjaskfldjBBad;sflkjasdflkjB", "f"));
+console.log(countChar("BBalskfdfja;sdkfjaskfldjBBad;sflkjasdflkjB", "f"));
